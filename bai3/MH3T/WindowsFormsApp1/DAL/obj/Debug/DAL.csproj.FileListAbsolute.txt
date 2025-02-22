@@ -1,0 +1,9 @@
+D:\LapTrinhService\MH3TVSWCF\bai3\MH3T\WindowsFormsApp1\DAL\bin\Debug\DAL.dll
+D:\LapTrinhService\MH3TVSWCF\bai3\MH3T\WindowsFormsApp1\DAL\bin\Debug\DAL.pdb
+D:\LapTrinhService\MH3TVSWCF\bai3\MH3T\WindowsFormsApp1\DAL\bin\Debug\DTO.dll
+D:\LapTrinhService\MH3TVSWCF\bai3\MH3T\WindowsFormsApp1\DAL\bin\Debug\DTO.pdb
+D:\LapTrinhService\MH3TVSWCF\bai3\MH3T\WindowsFormsApp1\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\LapTrinhService\MH3TVSWCF\bai3\MH3T\WindowsFormsApp1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\LapTrinhService\MH3TVSWCF\bai3\MH3T\WindowsFormsApp1\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\LapTrinhService\MH3TVSWCF\bai3\MH3T\WindowsFormsApp1\DAL\obj\Debug\DAL.dll
+D:\LapTrinhService\MH3TVSWCF\bai3\MH3T\WindowsFormsApp1\DAL\obj\Debug\DAL.pdb

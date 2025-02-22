@@ -1,0 +1,12 @@
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.AssemblyReference.cache
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\WcfService1\bin\WcfService1.dll.config
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\WcfService1\bin\WcfService1.dll
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\WcfService1\bin\WcfService1.pdb
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\WcfService1\bin\DAL.dll
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\WcfService1\bin\DTO.dll
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\WcfService1\bin\DAL.pdb
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\WcfService1\bin\DTO.pdb
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\WcfService1\obj\Debug\WcfServi.806E2312.Up2Date
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\WcfService1\obj\Debug\WcfService1.dll
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\WcfService1\obj\Debug\WcfService1.pdb

@@ -1,0 +1,6 @@
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\DTO\bin\Debug\DTO.dll
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\DTO\bin\Debug\DTO.pdb
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\DTO\obj\Debug\DTO.dll
+D:\LapTrinhService\MH3TVSWCF\bai3\WcfService1\DTO\obj\Debug\DTO.pdb

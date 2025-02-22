@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:59197/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:59197/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:59197/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DTO" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_Loadnxb_InputMessage">
+    <wsdl:part name="parameters" element="tns:Loadnxb" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Loadnxb_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadnxbResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertnxb_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insertnxb" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertnxb_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertnxbResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updatenxb_InputMessage">
+    <wsdl:part name="parameters" element="tns:Updatenxb" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updatenxb_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatenxbResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deletenxb_InputMessage">
+    <wsdl:part name="parameters" element="tns:Deletenxb" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deletenxb_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletenxbResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Loadtg_InputMessage">
+    <wsdl:part name="parameters" element="tns:Loadtg" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Loadtg_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadtgResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Inserttg_InputMessage">
+    <wsdl:part name="parameters" element="tns:Inserttg" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Inserttg_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserttgResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updatetg_InputMessage">
+    <wsdl:part name="parameters" element="tns:Updatetg" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updatetg_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatetgResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deletetg_InputMessage">
+    <wsdl:part name="parameters" element="tns:Deletetg" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deletetg_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletetgResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Loadsach_InputMessage">
+    <wsdl:part name="parameters" element="tns:Loadsach" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Loadsach_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadsachResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertsach_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insertsach" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertsach_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertsachResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updatesach_InputMessage">
+    <wsdl:part name="parameters" element="tns:Updatesach" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updatesach_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatesachResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deletesach_InputMessage">
+    <wsdl:part name="parameters" element="tns:Deletesach" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deletesach_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletesachResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_data_InputMessage">
+    <wsdl:part name="parameters" element="tns:data" />
+  </wsdl:message>
+  <wsdl:message name="IService1_data_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="Loadnxb">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Loadnxb" message="tns:IService1_Loadnxb_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoadnxbResponse" message="tns:IService1_Loadnxb_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insertnxb">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insertnxb" message="tns:IService1_Insertnxb_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertnxbResponse" message="tns:IService1_Insertnxb_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Updatenxb">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Updatenxb" message="tns:IService1_Updatenxb_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdatenxbResponse" message="tns:IService1_Updatenxb_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Deletenxb">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Deletenxb" message="tns:IService1_Deletenxb_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletenxbResponse" message="tns:IService1_Deletenxb_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Loadtg">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Loadtg" message="tns:IService1_Loadtg_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoadtgResponse" message="tns:IService1_Loadtg_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Inserttg">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Inserttg" message="tns:IService1_Inserttg_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InserttgResponse" message="tns:IService1_Inserttg_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Updatetg">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Updatetg" message="tns:IService1_Updatetg_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdatetgResponse" message="tns:IService1_Updatetg_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Deletetg">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Deletetg" message="tns:IService1_Deletetg_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletetgResponse" message="tns:IService1_Deletetg_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Loadsach">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Loadsach" message="tns:IService1_Loadsach_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoadsachResponse" message="tns:IService1_Loadsach_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insertsach">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insertsach" message="tns:IService1_Insertsach_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertsachResponse" message="tns:IService1_Insertsach_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Updatesach">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Updatesach" message="tns:IService1_Updatesach_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdatesachResponse" message="tns:IService1_Updatesach_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Deletesach">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Deletesach" message="tns:IService1_Deletesach_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletesachResponse" message="tns:IService1_Deletesach_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="data">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/data" message="tns:IService1_data_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/dataResponse" message="tns:IService1_data_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Loadnxb">
+      <soap:operation soapAction="http://tempuri.org/IService1/Loadnxb" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insertnxb">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insertnxb" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Updatenxb">
+      <soap:operation soapAction="http://tempuri.org/IService1/Updatenxb" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deletenxb">
+      <soap:operation soapAction="http://tempuri.org/IService1/Deletenxb" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Loadtg">
+      <soap:operation soapAction="http://tempuri.org/IService1/Loadtg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Inserttg">
+      <soap:operation soapAction="http://tempuri.org/IService1/Inserttg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Updatetg">
+      <soap:operation soapAction="http://tempuri.org/IService1/Updatetg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deletetg">
+      <soap:operation soapAction="http://tempuri.org/IService1/Deletetg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Loadsach">
+      <soap:operation soapAction="http://tempuri.org/IService1/Loadsach" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insertsach">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insertsach" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Updatesach">
+      <soap:operation soapAction="http://tempuri.org/IService1/Updatesach" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deletesach">
+      <soap:operation soapAction="http://tempuri.org/IService1/Deletesach" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="data">
+      <soap:operation soapAction="http://tempuri.org/IService1/data" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:59197/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

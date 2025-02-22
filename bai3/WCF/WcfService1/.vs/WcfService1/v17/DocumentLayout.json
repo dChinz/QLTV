@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LapTrinhService\\MH3TVSWCF\\bai3\\WCF\\WcfService1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE3ECFC-6A8F-4646-9F2F-61D1D5F5EF70}|DAL\\DAL.csproj|d:\\laptrinhservice\\mh3tvswcf\\bai3\\wcf\\wcfservice1\\dal\\dal_sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE3ECFC-6A8F-4646-9F2F-61D1D5F5EF70}|DAL\\DAL.csproj|solutionrelative:dal\\dal_sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DB7D78-14A7-43FD-B4B5-18C11430F2CE}|DTO\\DTO.csproj|d:\\laptrinhservice\\mh3tvswcf\\bai3\\wcf\\wcfservice1\\dto\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DB7D78-14A7-43FD-B4B5-18C11430F2CE}|DTO\\DTO.csproj|solutionrelative:dto\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DAL_Sach.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai3\\WCF\\WcfService1\\DAL\\DAL_Sach.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Sach.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai3\\WCF\\WcfService1\\DAL\\DAL_Sach.cs",
+              "RelativeToolTip": "DAL\\DAL_Sach.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:14:12.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai3\\WCF\\WcfService1\\DTO\\Report.cs",
+              "RelativeDocumentMoniker": "DTO\\Report.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai3\\WCF\\WcfService1\\DTO\\Report.cs",
+              "RelativeToolTip": "DTO\\Report.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:11:16.846Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
